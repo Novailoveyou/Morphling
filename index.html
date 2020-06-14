@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="#f01439" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Morphling</title>
+  </head>
+  <body>
+    <div class="container center">
+      <div class="content">
+        <h1 class="title">Morphling says:</h1>
+        <p id="thinking" class="thinking">Let me think...</p>
+        <p id="result" class="hint">
+          Hi! I'm Morphing! I will tell You how many games you would need to
+          play to gain your goal MMR
+        </p>
+
+        <div class="form-group mt25">
+          <label for="mmr_goal"
+            >Tell me how much MMR do You want to gain?</label
+          >
+          <input id="mmr_goal" type="text" />
+        </div>
+
+        <div class="form-group">
+          <label for="winrate">Tell me Your winrate?</label>
+          <input id="winrate" type="text" />
+        </div>
+
+        <!-- <div id="result" class="result"></div> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
